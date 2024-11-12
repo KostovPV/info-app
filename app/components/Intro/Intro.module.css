@@ -1,0 +1,19 @@
+.container {
+    background-image: url('../../../public/container2.webp');
+    min-height: 45rem;
+   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    /* align-items: flex-start;  */
+    justify-content: center; 
+   opacity: 0.7;
+}
+
+.main_title{
+    display: inline-block;
+    color: rgb(10, 9, 9);
+    margin-top: 0rem;
+    padding-top: 0;
+}

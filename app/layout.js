@@ -1,6 +1,7 @@
 import "./globals.css";
-import Header from "./components/Header/Header";
+
 import Footer from "./components/Footer/Footer";
+import MainNavigation from "./components/Main-navigation/Main-navigation";
 
 export const metadata = {
   title: "The info-app",
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body>
-        <Header />
+        <MainNavigation />
         <main>{children}</main>
         <Footer />
       </body>
