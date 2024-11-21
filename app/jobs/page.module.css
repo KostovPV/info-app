@@ -1,0 +1,19 @@
+.jobsContainer {
+    display: flex;
+    min-height: 40rem;
+    flex-direction: column;
+}
+
+.jobsWrapper {
+    display: flex;
+}
+
+.asside {
+    display: flex;
+    max-width: 20%;
+}
+
+.jobList {
+    display: flex;
+    max-width: 780%;
+}
