@@ -1,4 +1,4 @@
-.page {
+.pageTop {
   min-height: 28rem;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   color: rgb(226, 221, 221);
 }
 
-.page::before {
+.pageTop::before {
   content: "";
   position: absolute;
   top: 0;
@@ -26,16 +26,17 @@
 
 .main {
   display: flex;
+  flex-direction: column;
   font-size: 1.2rem;
   color: #f5eeee;
 }
 
 .jobContainer {
-  /* width: 10rem; */
   display: flex;
   flex-direction: column;
   padding-top: 7rem;
   margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 .jobContainer button {
   margin-top: 1rem;
