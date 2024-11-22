@@ -1,0 +1,10 @@
+.jobCard{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: aliceblue;
+    color: black;
+}
+.jobCardItem{
+    margin: 0.4rem;
+}
