@@ -5,8 +5,17 @@
     margin: 1rem;
     background-color: aliceblue;
     color: black;
-   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+                0 -2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.NewsCardData{
+
+.NewsCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15),
+        0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.NewsCardData {
     margin: 0.3rem;
 }
