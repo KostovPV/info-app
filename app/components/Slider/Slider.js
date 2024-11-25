@@ -1,3 +1,4 @@
+import HotBlog from "../HotBlog/HotBlog";
 import HotJobs from "../HotJobs/HotJobs";
 import HotNews from "../HotNews/HotNews";
 import classes from "./Slider.module.css";
@@ -12,8 +13,7 @@ export default function Slider() {
         <HotNews />
       </div>
       <div className={classes.slide}>
-        <h3>Latest Blogs</h3>
-        <p>Read inspiring stories and tips from industry experts.</p>
+        <HotBlog />
       </div>
 
     </section>
