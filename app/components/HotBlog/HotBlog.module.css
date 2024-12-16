@@ -1,0 +1,9 @@
+.hotBlogsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hotBlogsList{
+    display: flex;
+    flex-direction: row;
+}
