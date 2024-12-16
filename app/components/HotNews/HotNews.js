@@ -3,6 +3,14 @@ import classes from './HotNews.module.css';
 
 export default function HotNews() {
   return (
-    <div><NewsCard /></div>
+    <div className={classes.hotNewsContainer}>
+      <h2>Latest news</h2>
+      <div className={classes.latestNews}>
+      <div><NewsCard /></div>
+      <div><NewsCard /></div>
+      <div><NewsCard /></div>
+      </div>
+      
+    </div>
   )
 }

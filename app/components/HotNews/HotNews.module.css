@@ -1,0 +1,8 @@
+.hotNewsContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.latestNews{
+    display: flex;
+}

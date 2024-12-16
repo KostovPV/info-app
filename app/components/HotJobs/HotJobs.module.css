@@ -1,0 +1,8 @@
+.HotobsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jobsSection{
+    display: flex;
+}

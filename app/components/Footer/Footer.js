@@ -1,16 +1,27 @@
 import Image from 'next/image';
 import styles from './Footer.module.css';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.footerMain}>
                 <ul>
-                    <li>Job list</li>
-                    <li>Blogs</li>
-                    <li>General info</li>
-                    <li>Socials</li>
-                    <li>Contacts</li>
+                    <li>
+                        <Link href="/jobs">Job list</Link>
+                    </li>
+                    <li>
+                        <Link href="/blogs">Blogs</Link>
+                    </li>
+                    <li>
+                        <Link href="#">General info</Link>
+                    </li>
+                    <li>
+                        <Link href="#">Socials</Link>
+                    </li>
+                    <li>
+                         <Link href="#">Contacts</Link>
+                    </li>
                 </ul>
             </div>
             <div className={styles.footerText}>
